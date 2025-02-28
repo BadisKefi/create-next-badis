@@ -1,5 +1,5 @@
 {
-  "name": "trading-journal-v10-stable",
+  "name": "create-next-badis",
   "version": "0.1.0",
   "bin": {
     "create-next-badis": "bin/install.mjs"
