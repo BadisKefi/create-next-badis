@@ -1,7 +1,9 @@
 {
   "name": "trading-journal-v10-stable",
   "version": "0.1.0",
-  "private": true,
+  "bin": {
+    "create-next-badis": "bin/install.mjs"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

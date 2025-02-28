@@ -25,4 +25,12 @@ npx shadcn@2.3 add input select separator popover command checkbox badge dropdow
 npx shadcn@2.3 add form toast textarea switch radio-group calendar // needed in forms demos also this auto installed label component & date-fns
 npx shadcn@latest add sidebar-16 // this added 7 ui components and 7 components parts and 1 hook and 3 npms, i edited structure
 npx shadcn@latest add sidebar-14 // only added 3 files maybe
-npm install next-themes // also took file from shadcn repo & documentation
+npm install next-themes // also took file from shadcn repo & documentation but i believe i will need to create my own with the same switcher logic
+bin > install.mjs > do what inside this : https://www.programonaut.com/how-to-create-an-npx-project-boilerplate-command-step-by-step/
+package.json : 
+"bin": {
+    "create-next-badis": "bin/install.mjs"
+},
+npm link
+npm login
+npm publish
