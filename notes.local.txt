@@ -1,0 +1,28 @@
+npx create-next-app@14.2.24 trading-journal-v8 --ts --tailwind --eslint --app
+npx shadcn@2.3 init -d
+.vscode > settings.json :
+{
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
+.eslintrc.json :
+"rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-var-requires": "off",
+},
+
+git branch -M main
+tsconfig.json > compilerOptions : "noImplicitAny": false,
+globals.css : vars > tailwindconfig > now can be used in tailwind styling & shadcn components
+https://minhaskamal.github.io/DownGit // for downloading parts of repos
+vscode >reload window, project // used it when error mostly from vscode glitch
+npm install @faker-js/faker // for the table demo
+npx shadcn@2.3 add table && npm install @tanstack/react-table
+npm install zod // needed it data-table demos so i  install it even thow it auto added if i installed shadcn form component
+npx shadcn@2.3 add input select separator popover command checkbox badge dropdown-menu button // needed in data-table demos also this auto installed dialog
+npx shadcn@2.3 add form toast textarea switch radio-group calendar // needed in forms demos also this auto installed label component & date-fns
+npx shadcn@latest add sidebar-16 // this added 7 ui components and 7 components parts and 1 hook and 3 npms, i edited structure
+npx shadcn@latest add sidebar-14 // only added 3 files maybe
+npm install next-themes // also took file from shadcn repo & documentation
